@@ -5,7 +5,7 @@
 - [ ] Jest
 - [ ] Playwright
 
-## Manual steps without integration
+## Manual steps without integration with `pkode`
 
 ### Setup [Kodiak](https://kodiakhq.com/#quickstart) bot
 
@@ -20,6 +20,18 @@ Adopted from the official [Quickstart](https://kodiakhq.com/#quickstart) guide.
 5. Start auto merging PRs with Kodiak\
    Label your PRs with your automerge label and let Kodiak do the rest! 🎉
 
+### Setup [All Contributors](https://allcontributors.org) bot
+
+1. Install the Bot to your project\
+   Check the [installation documentation](https://allcontributors.org/docs/en/bot/installation)
+   for how to add it
+2. Start a pull request or comment
+3. Mention the @all-contributors Bot
+4. Add a contributor’s username and contribution type\
+   Check the contribution types in the [Emoji Key Cheatsheet](https://allcontributors.org/docs/en/emoji-key)
+5. Post and your README.md updates automatically! It'll add the Contributor
+   Table for your first time, too.
+
 TODO: Document these manual steps which require no integration with `pkode`
 
 - [ ] Git pre-commit hooks using husky
@@ -27,5 +39,5 @@ TODO: Document these manual steps which require no integration with `pkode`
   - [ ] [Install commitlint](https://commitlint.js.org/#/guides-local-setup?id=install-commitlint)
   - [ ] [Integrate with husky](https://commitlint.js.org/#/guides-local-setup?id=install-husky)
   - [ ] [Test integration with husky](https://commitlint.js.org/#/guides-local-setup?id=test)
-- [ ] allcontributors integration
-- [ ] Kodiak bot
+- [x] All Contributors integration
+- [x] Kodiak bot
