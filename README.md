@@ -36,7 +36,7 @@ the things you can do with `pkode`.
 
 <!-- prettier-ignore-start -->
 [build-badge]: https://img.shields.io/github/workflow/status/zainfathoni/pkode/CI?logo=github&style=flat-square
-[build]: https://github.com/zainfathoni/kelas.rumahberbagi.com/actions?query=workflow%3ACI
+[build]: https://github.com/zainfathoni/pkode/actions?query=workflow%3Avalidate
 [license-badge]: https://img.shields.io/badge/license-MIT-blue?style=flat-square
 [license]: LICENSE
 [npm]: https://www.npmjs.com
