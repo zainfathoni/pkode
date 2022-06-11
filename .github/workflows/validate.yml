@@ -1,4 +1,4 @@
-name: validate
+name: Validate and Release
 on:
   push:
     branches:
@@ -41,3 +41,47 @@ jobs:
 
       # - name: ⬆️ Upload coverage report
       #   uses: codecov/codecov-action@v2
+  
+  release:
+    needs: main
+    runs-on: ubuntu-latest
+    if:
+      ${{ github.repository == 'zainfathoni/pkode' &&
+      contains('refs/heads/main,refs/heads/beta,refs/heads/next,refs/heads/alpha',
+      github.ref) && github.event_name == 'push' }}
+    steps:
+      - name: 🛑 Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.9.1
+
+      - name: ⬇️ Checkout repo
+        uses: actions/checkout@v3
+
+      - name: ⎔ Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: 📥 Download deps
+        uses: bahmutov/npm-install@v1
+        with:
+          useLockFile: false
+
+      - name: 🏗 Run build script
+        run: npm run build
+
+      # - name: 🚀 Release
+      #   uses: cycjimmy/semantic-release-action@v2
+      #   with:
+      #     semantic_version: 18
+      #     branches: |
+      #       [
+      #         '+([0-9])?(.{+([0-9]),x}).x',
+      #         'main',
+      #         'next',
+      #         'next-major',
+      #         {name: 'beta', prerelease: true},
+      #         {name: 'alpha', prerelease: true}
+      #       ]
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

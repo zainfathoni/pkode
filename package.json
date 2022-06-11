@@ -1,9 +1,20 @@
 {
   "name": "pkode",
-  "version": "0.1.0",
+  "version": "0.1.0-alpha",
   "description": "CLI toolbox for common scripts for my projects",
-  "main": "index.js",
-  "scripts": {},
+  "type": "module",
+  "source": "src/index.ts",
+  "exports": {
+    "require": "./dist/pkode.cjs",
+    "default": "./dist/pkode.modern.js"
+  },
+  "main": "./dist/pkode.cjs",
+  "module": "./dist/pkode.module.js",
+  "unpkg": "./dist/pkode.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zainfathoni/pkode.git"
@@ -16,5 +27,12 @@
   "bugs": {
     "url": "https://github.com/zainfathoni/pkode/issues"
   },
-  "homepage": "https://github.com/zainfathoni/pkode#readme"
+  "homepage": "https://github.com/zainfathoni/pkode#readme",
+  "engines": {
+    "node": "^12.22.0 || ^14.17.0 || >=16.0.0",
+    "npm": ">=6"
+  },
+  "devDependencies": {
+    "microbundle": "0.15.0"
+  }
 }
