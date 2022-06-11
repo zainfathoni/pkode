@@ -73,8 +73,8 @@ Most contributions start from defining issues. Anyone can open an issue for
 discussion. You can head to
 [this link](https://guides.github.com/features/issues/) for deep understanding
 about Issues. Specifically, you can start finding several Issues in
-[our Issues tab](https://github.com/zainfathoni/pkode/issues). There are only
-two categories in Issues section, Open and Closed.
+[our Issues tab](../../issues). There are only two categories in Issues section,
+Open and Closed.
 
 #### Open Issues
 
@@ -110,10 +110,9 @@ How to find issues with `good first issue` label:
 
 1. The easiest way is to go into the
    `github.com/<owner>/<repository>/contribute` link. In this case, you can go
-   into [this link](https://github.com/zainfathoni/pkode/contribute). That link
-   will list all of the issues with the `good first issue` label.
-2. Another way is to head over into the
-   [Issues](https://github.com/zainfathoni/pkode/issues) section of the
+   into [this link](../../contribute). That link will list all of the issues
+   with the `good first issue` label.
+2. Another way is to head over into the [Issues](../../issues) section of the
    repository, then click the Labels section beside Milestones. There you can
    see a lot of labels for the issues in the repository. Then find and click the
    `good first issue` label.
@@ -129,8 +128,8 @@ Before working on an issue, please make sure to:
    [the official guide](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository).
 2. Clone **your forked repository** and set it up by following the
    [Getting Started guide](https://github.com/zainfathoni/pkode#getting-started).
-3. Check any open [pull requests](https://github.com/zainfathoni/pkode/pulls)
-   that no one is working on the issue.
+3. Check any open [pull requests](../../pulls) that no one is working on the
+   issue.
 4. Create a new branch from the `main` branch.
 
 #### Issue assignment & Communication
@@ -311,38 +310,37 @@ used.
 Issue labels are a tool to group issues into one or more categories. It helps us
 track and manage issues and pull requests.
 
-Please open an issue on
-[`zainfathoni/pkode`](https://github.com/zainfathoni/pkode/issues) if you have
+Please open an issue on [this GitHub repository](../../issues) if you have
 suggestions for new labels.
 
 #### Type of Issue and Issue State
 
 <!-- markdownlint-disable -->
 
-| Label name         | `/pkode`                                                                   | Description                                                                                                              |
-| ------------------ | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| `blocked`          | [search](https://github.com/zainfathoni/pkode/labels/blocked)              | Issues blocked by something else.                                                                                        |
-| `bug`              | [search](https://github.com/zainfathoni/pkode/labels/bug)                  | Confirmed bugs or reports that are very likely to be bugs.                                                               |
-| `enhancement`      | [search](https://github.com/zainfathoni/pkode/labels/enhancement)          | New feature or request.                                                                                                  |
-| `epic`             | [search](https://github.com/zainfathoni/pkode/labels/epic)                 | A master issue thread which contains other smaller issues.                                                               |
-| `good first issue` | [search](https://github.com/zainfathoni/pkode/labels/good%20first%20issue) | Less complex issues which would be good first issues to work on for users who want to contribute to Kelas Rumah Berbagi. |
-| `help wanted`      | [search](https://github.com/zainfathoni/pkode/labels/help%20wanted)        | Issue that need extra attention.                                                                                         |
-| `invalid`          | [search](https://github.com/zainfathoni/pkode/labels/invalid)              | Issues which aren't valid (e.g. user errors).                                                                            |
-| `question`         | [search](https://github.com/zainfathoni/pkode/labels/question)             | More information needs to be collected about these problems or feature requests (e.g. steps to reproduce).               |
-| `wontfix`          | [search](https://github.com/zainfathoni/pkode/labels/wontfix)              | The Kelas Rumah Berbagi team will not fix these issues for now.                                                          |
+| Label name         | Link                                        | Description                                                                                                              |
+| ------------------ | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `blocked`          | [search](../../labels/blocked)              | Issues blocked by something else.                                                                                        |
+| `bug`              | [search](../../labels/bug)                  | Confirmed bugs or reports that are very likely to be bugs.                                                               |
+| `enhancement`      | [search](../../labels/enhancement)          | New feature or request.                                                                                                  |
+| `epic`             | [search](../../labels/epic)                 | A master issue thread which contains other smaller issues.                                                               |
+| `good first issue` | [search](../../labels/good%20first%20issue) | Less complex issues which would be good first issues to work on for users who want to contribute to Kelas Rumah Berbagi. |
+| `help wanted`      | [search](../../labels/help%20wanted)        | Issue that need extra attention.                                                                                         |
+| `invalid`          | [search](../../labels/invalid)              | Issues which aren't valid (e.g. user errors).                                                                            |
+| `question`         | [search](../../labels/question)             | More information needs to be collected about these problems or feature requests (e.g. steps to reproduce).               |
+| `wontfix`          | [search](../../labels/wontfix)              | The Kelas Rumah Berbagi team will not fix these issues for now.                                                          |
 
 #### Topic Categories
 
-| Label name      | `/pkode`                                                            | Description                                   |
-| --------------- | ------------------------------------------------------------------- | --------------------------------------------- |
-| `ci-cd`         | [search](https://github.com/zainfathoni/pkode/labels/ci-cd)         | Continuous Integration & Continuous Delivery. |
-| `design`        | [search](https://github.com/zainfathoni/pkode/labels/design)        | Issue related to design.                      |
-| `documentation` | [search](https://github.com/zainfathoni/pkode/labels/documentation) | Improvements or additions to documentation.   |
-| `dx`            | [search](https://github.com/zainfathoni/pkode/labels/dx)            | Developer Experience.                         |
-| `ui`            | [search](https://github.com/zainfathoni/pkode/labels/ui)            | User interface.                               |
-| `ux`            | [search](https://github.com/zainfathoni/pkode/labels/ux)            | User experience.                              |
-| `seo`           | [search](https://github.com/zainfathoni/pkode/labels/seo)           | Search engine optimization.                   |
-| `scripting`     | [search](https://github.com/zainfathoni/pkode/labels/scripting)     | Issue related to the code.                    |
-| `testing`       | [search](https://github.com/zainfathoni/pkode/labels/testing)       | Automated testing.                            |
+| Label name      | Link                                 | Description                                   |
+| --------------- | ------------------------------------ | --------------------------------------------- |
+| `ci-cd`         | [search](../../labels/ci-cd)         | Continuous Integration & Continuous Delivery. |
+| `design`        | [search](../../labels/design)        | Issue related to design.                      |
+| `documentation` | [search](../../labels/documentation) | Improvements or additions to documentation.   |
+| `dx`            | [search](../../labels/dx)            | Developer Experience.                         |
+| `ui`            | [search](../../labels/ui)            | User interface.                               |
+| `ux`            | [search](../../labels/ux)            | User experience.                              |
+| `seo`           | [search](../../labels/seo)           | Search engine optimization.                   |
+| `scripting`     | [search](../../labels/scripting)     | Issue related to the code.                    |
+| `testing`       | [search](../../labels/testing)       | Automated testing.                            |
 
 <!-- markdownlint-restore -->
