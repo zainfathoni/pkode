@@ -1,6 +1,9 @@
 # pkode
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Build Status][build-badge]][build] [![MIT License][license-badge]][license]
@@ -20,7 +23,9 @@
     - [Guidelines](#guidelines)
       - [Values](#values)
       - [How to set up a new project](#how-to-set-up-a-new-project)
+      - [Releasing this package manually](#releasing-this-package-manually)
     - [Contributing](#contributing)
+  - [Contributors ✨](#contributors-)
 
 ## About `pkode`
 
@@ -44,8 +49,9 @@ This tool is inspired by `react-scripts` and `kcd-scripts`.
 
 ## Installation
 
-This module is distributed via [npm][npm] which is bundled with [node][node] and
-should be installed as one of your project's `devDependencies`:
+This module is distributed via [npm](https://www.npmjs.com) which is bundled
+with [node](https://nodejs.org) and should be installed as one of your project's
+`devDependencies`:
 
 ```shell
 npm install --save-dev pkode
@@ -84,6 +90,11 @@ When setting up a new project, please follow
 [these guidelines](docs/new-project.md) to ensure that it complies with our
 standards of quality.
 
+#### Releasing this package manually
+
+Please follow [Manual Releases](docs/manual-releases.md) document to perform
+releases manually when things get messed up.
+
 ### Contributing
 
 See our contribution guidelines in these languages:
@@ -99,13 +110,12 @@ To facilitate healthy and constructive community behavior, we adopt and enforce
 [build]: https://github.com/zainfathoni/pkode/actions?query=workflow%3Avalidate
 [license-badge]: https://img.shields.io/badge/license-MIT-blue?style=flat-square
 [license]: LICENSE
-[npm]: https://www.npmjs.com
-[node]: https://nodejs.org
 <!-- prettier-ignore-end -->
 
 ## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks goes to these wonderful people
+([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -121,4 +131,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+This project follows the
+[all-contributors](https://github.com/all-contributors/all-contributors)
+specification. Contributions of any kind are welcome!
