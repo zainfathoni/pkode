@@ -12,7 +12,7 @@
   "module": "./dist/index.module.js",
   "unpkg": "./dist/index.umd.js",
   "bin": {
-    "pkode": "./dist/index.js"
+    "pkode": "./dist/index.cjs"
   },
   "scripts": {
     "build": "microbundle",
