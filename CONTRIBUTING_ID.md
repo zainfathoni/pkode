@@ -72,8 +72,8 @@ Sebagian besar kontribusi berawal dari membuat _Issues_. Tiap orang dapat
 memulai membuat _Issues_ untuk diskusi. Anda dapat mengunjungi
 [pranala ini](https://guides.github.com/features/issues/) untuk pemahaman lebih
 lanjut mengenai _Issues_. Secara spesifik, Anda dapat menemukan _Issues_
-[di tab **Issues** ini](https://github.com/zainfathoni/kelas.rumahberbagi.com/issues).
-Hanya ada dua kategori bagian pada _Issues_, yakni _Open_ dan _Closed Issues_.
+[di tab **Issues** ini](https://github.com/zainfathoni/pkode/issues). Hanya ada
+dua kategori bagian pada _Issues_, yakni _Open_ dan _Closed Issues_.
 
 #### _Open Issues_
 
@@ -111,15 +111,14 @@ Bagaimana cara mencari _issue_ dengan label _`good first issue`_:
 
 1. Cara paling mudah adalah dengan mengunjungi pranala
    `github.com/<owner>/<repository>/contribute`. Dalam hal ini, Anda dapat
-   mengunjungi
-   [pranala ini](https://github.com/zainfathoni/kelas.rumahberbagi.com/contribute).
+   mengunjungi [pranala ini](https://github.com/zainfathoni/pkode/contribute).
    Pranala tersebut akan memberikan daftar dari semua _issue_ dengan label
    _`good first issue`_.
 2. Atau cara lainnya adalah dengan mengunjungi bagian
-   [_Issues_](https://github.com/zainfathoni/kelas.rumahberbagi.com/issues) dari
-   sebuah repository, lalu klik bagian _Labels_ di sebelah _Milestones_. Di
-   sana, Anda dapat melihat banyak label untuk _issues_ yang terdapat dalam
-   repository tersebut. Lalu cari dan klik label `good first issue`.
+   [_Issues_](https://github.com/zainfathoni/pkode/issues) dari sebuah
+   repository, lalu klik bagian _Labels_ di sebelah _Milestones_. Di sana, Anda
+   dapat melihat banyak label untuk _issues_ yang terdapat dalam repository
+   tersebut. Lalu cari dan klik label `good first issue`.
 
 ### Panduan bekerja
 
@@ -131,10 +130,9 @@ Sebelum mengerjakan sebuah _issue_, pastikan hal-hal berikut:
    kami masih menyarankan untuk membaca
    [manual resminya](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository).
 2. _Clone_ _forked repository_ Anda dan ikuti
-   [_Getting Started guide_](https://github.com/zainfathoni/kelas.rumahberbagi.com#getting-started).
-3. Periksa di
-   [_pull requests_](https://github.com/zainfathoni/kelas.rumahberbagi.com/pulls)
-   dan tidak ada orang lain yang sedang mengerjakan _issue_ tersebut.
+   [_Getting Started guide_](https://github.com/zainfathoni/pkode#getting-started).
+3. Periksa di [_pull requests_](https://github.com/zainfathoni/pkode/pulls) dan
+   tidak ada orang lain yang sedang mengerjakan _issue_ tersebut.
 4. Buat _branch_ baru dari `main`.
 
 #### Penugasan _issue_ & komunikasi
@@ -339,36 +337,36 @@ Berbagi.
 
 Jika Anda memiliki ide atau saran untuk penambahan label baru yang belum ada di
 _repository_, mohon untuk membuka _issue_ di
-[`zainfathoni/kelas.rumahberbagi.com`](https://github.com/zainfathoni/kelas.rumahberbagi.com/issues).
+[`zainfathoni/pkode`](https://github.com/zainfathoni/pkode/issues).
 
 #### Tipe _Issue_ and _Issue State_
 
 <!-- markdownlint-disable -->
 
-| Nama label         | `/kelas.rumahberbagi.com`                                                                 | Deskripsi                                                                                                       |
-| ------------------ | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| `blocked`          | [cari](https://github.com/zainfathoni/kelas.rumahberbagi.com/labels/blocked)              | _Issues_ yang terhalang oleh _issue_ lainnya.                                                                   |
-| `bug`              | [cari](https://github.com/zainfathoni/kelas.rumahberbagi.com/labels/bug)                  | Laporan mengenai adanya _bug_ atau kesalahan pada website.                                                      |
-| `enhancement`      | [cari](https://github.com/zainfathoni/kelas.rumahberbagi.com/labels/enhancement)          | Permintaan untuk penambahan fitur baru.                                                                         |
-| `epic`             | [cari](https://github.com/zainfathoni/kelas.rumahberbagi.com/labels/epic)                 | Utas utama dari _issue_ yang didalamnya terdiri dari beberapa _issues_ yang lebih sederhana.                    |
-| `good first issue` | [cari](https://github.com/zainfathoni/kelas.rumahberbagi.com/labels/good%20first%20issue) | _Issues_ yang sederhana. Cocok untuk para pemula untuk mulai berkontribusi ke _repository_ Kelas Rumah Berbagi. |
-| `help wanted`      | [cari](https://github.com/zainfathoni/kelas.rumahberbagi.com/labels/help%20wanted)        | _Issues_ yang membutuhkan perhatian lebih dan prioritas.                                                        |
-| `invalid`          | [cari](https://github.com/zainfathoni/kelas.rumahberbagi.com/labels/invalid)              | _Issues_ yang tidak valid.                                                                                      |
-| `question`         | [cari](https://github.com/zainfathoni/kelas.rumahberbagi.com/labels/question)             | Membutuhkan informasi tambahan terkait permasalahan yang ada atau terkait permintaan fitur baru.                |
-| `wontfix`          | [cari](https://github.com/zainfathoni/kelas.rumahberbagi.com/labels/wontfix)              | Tim Kelas Rumah Berbagi tidak akan mengerjakan _issue_ tersebut untuk saat ini.                                 |
+| Nama label         | `/pkode`                                                                 | Deskripsi                                                                                                       |
+| ------------------ | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| `blocked`          | [cari](https://github.com/zainfathoni/pkode/labels/blocked)              | _Issues_ yang terhalang oleh _issue_ lainnya.                                                                   |
+| `bug`              | [cari](https://github.com/zainfathoni/pkode/labels/bug)                  | Laporan mengenai adanya _bug_ atau kesalahan pada website.                                                      |
+| `enhancement`      | [cari](https://github.com/zainfathoni/pkode/labels/enhancement)          | Permintaan untuk penambahan fitur baru.                                                                         |
+| `epic`             | [cari](https://github.com/zainfathoni/pkode/labels/epic)                 | Utas utama dari _issue_ yang didalamnya terdiri dari beberapa _issues_ yang lebih sederhana.                    |
+| `good first issue` | [cari](https://github.com/zainfathoni/pkode/labels/good%20first%20issue) | _Issues_ yang sederhana. Cocok untuk para pemula untuk mulai berkontribusi ke _repository_ Kelas Rumah Berbagi. |
+| `help wanted`      | [cari](https://github.com/zainfathoni/pkode/labels/help%20wanted)        | _Issues_ yang membutuhkan perhatian lebih dan prioritas.                                                        |
+| `invalid`          | [cari](https://github.com/zainfathoni/pkode/labels/invalid)              | _Issues_ yang tidak valid.                                                                                      |
+| `question`         | [cari](https://github.com/zainfathoni/pkode/labels/question)             | Membutuhkan informasi tambahan terkait permasalahan yang ada atau terkait permintaan fitur baru.                |
+| `wontfix`          | [cari](https://github.com/zainfathoni/pkode/labels/wontfix)              | Tim Kelas Rumah Berbagi tidak akan mengerjakan _issue_ tersebut untuk saat ini.                                 |
 
 #### Kategori
 
-| Nama Label      | `/kelas.rumahberbagi.com`                                                          | Deskripsi                                                           |
-| --------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| `ci-cd`         | [cari](https://github.com/zainfathoni/kelas.rumahberbagi.com/labels/ci-cd)         | _Continuous Integration & Continuous Delivery_.                     |
-| `design`        | [cari](https://github.com/zainfathoni/kelas.rumahberbagi.com/labels/design)        | _Issues_ yang berkaitan dengan desain.                              |
-| `documentation` | [cari](https://github.com/zainfathoni/kelas.rumahberbagi.com/labels/documentation) | Perbaikan serta penambahan informasi pada dokumentasi.              |
-| `dx`            | [cari](https://github.com/zainfathoni/kelas.rumahberbagi.com/labels/dx)            | _Issues_ terkait pengalaman developer dalam melakukan pengembangan. |
-| `ui`            | [cari](https://github.com/zainfathoni/kelas.rumahberbagi.com/labels/ui)            | _Issues_ terkait tampilan antar muka pengguna.                      |
-| `ux`            | [cari](https://github.com/zainfathoni/kelas.rumahberbagi.com/labels/ux)            | _Issues_ terkait pengalam pengguna dalam menggunakan website.       |
-| `seo`           | [cari](https://github.com/zainfathoni/kelas.rumahberbagi.com/labels/seo)           | _Search engine optimization_.                                       |
-| `scripting`     | [cari](https://github.com/zainfathoni/kelas.rumahberbagi.com/labels/scripting)     | _Issues_ terkait kode.                                              |
-| `testing`       | [cari](https://github.com/zainfathoni/kelas.rumahberbagi.com/labels/testing)       | _Automated testing_.                                                |
+| Nama Label      | `/pkode`                                                          | Deskripsi                                                           |
+| --------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------- |
+| `ci-cd`         | [cari](https://github.com/zainfathoni/pkode/labels/ci-cd)         | _Continuous Integration & Continuous Delivery_.                     |
+| `design`        | [cari](https://github.com/zainfathoni/pkode/labels/design)        | _Issues_ yang berkaitan dengan desain.                              |
+| `documentation` | [cari](https://github.com/zainfathoni/pkode/labels/documentation) | Perbaikan serta penambahan informasi pada dokumentasi.              |
+| `dx`            | [cari](https://github.com/zainfathoni/pkode/labels/dx)            | _Issues_ terkait pengalaman developer dalam melakukan pengembangan. |
+| `ui`            | [cari](https://github.com/zainfathoni/pkode/labels/ui)            | _Issues_ terkait tampilan antar muka pengguna.                      |
+| `ux`            | [cari](https://github.com/zainfathoni/pkode/labels/ux)            | _Issues_ terkait pengalam pengguna dalam menggunakan website.       |
+| `seo`           | [cari](https://github.com/zainfathoni/pkode/labels/seo)           | _Search engine optimization_.                                       |
+| `scripting`     | [cari](https://github.com/zainfathoni/pkode/labels/scripting)     | _Issues_ terkait kode.                                              |
+| `testing`       | [cari](https://github.com/zainfathoni/pkode/labels/testing)       | _Automated testing_.                                                |
 
 <!-- markdownlint-restore -->
