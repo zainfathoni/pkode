@@ -69,19 +69,19 @@ jobs:
       - name: 🏗 Run build script
         run: npm run build
 
-      # - name: 🚀 Release
-      #   uses: cycjimmy/semantic-release-action@v2
-      #   with:
-      #     semantic_version: 18
-      #     branches: |
-      #       [
-      #         '+([0-9])?(.{+([0-9]),x}).x',
-      #         'main',
-      #         'next',
-      #         'next-major',
-      #         {name: 'beta', prerelease: true},
-      #         {name: 'alpha', prerelease: true}
-      #       ]
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: 🚀 Release
+        uses: cycjimmy/semantic-release-action@v3
+        with:
+          semantic_version: 18
+          branches: |
+            [
+              '+([0-9])?(.{+([0-9]),x}).x',
+              'main',
+              'next',
+              'next-major',
+              {name: 'beta', prerelease: true},
+              {name: 'alpha', prerelease: true}
+            ]
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
