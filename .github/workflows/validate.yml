@@ -9,7 +9,8 @@ on:
       - 'beta'
       - 'alpha'
       - '!all-contributors/**'
-  pull_request: {}
+  pull_request:
+    types: [opened, reopened, synchronize]
 jobs:
   main:
     # ignore all-contributors PRs
