@@ -1,0 +1,20 @@
+{
+  "name": "pkode",
+  "version": "0.1.0",
+  "description": "CLI toolbox for common scripts for my projects",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zainfathoni/pkode.git"
+  },
+  "keywords": [
+    "scripts"
+  ],
+  "author": "Zain Fathoni <me@zainf.dev> (https://zainfathoni.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zainfathoni/pkode/issues"
+  },
+  "homepage": "https://github.com/zainfathoni/pkode#readme"
+}
