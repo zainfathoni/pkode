@@ -7,6 +7,9 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Build Status][build-badge]][build] [![MIT License][license-badge]][license]
+[![version][version-badge]][package]
+[![All Contributors][all-contributors-badge]](#contributors-)
+[![Code of Conduct][coc-badge]](CODE_OF_CONDUCT.md)
 
 ## Table of Contents
 
@@ -110,6 +113,10 @@ To facilitate healthy and constructive community behavior, we adopt and enforce
 [build]: https://github.com/zainfathoni/pkode/actions?query=workflow%3Avalidate
 [license-badge]: https://img.shields.io/badge/license-MIT-blue?style=flat-square
 [license]: LICENSE
+[version-badge]: https://img.shields.io/npm/v/pkode.svg?style=flat-square
+[package]: https://www.npmjs.com/package/pkode
+[all-contributors-badge]: https://img.shields.io/github/all-contributors/zainfathoni/pkode?color=orange&style=flat-square
+[coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
 <!-- prettier-ignore-end -->
 
 ## Contributors ✨
