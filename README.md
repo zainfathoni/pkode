@@ -26,6 +26,7 @@
     - [Guidelines](#guidelines)
       - [Values](#values)
       - [How to set up a new project](#how-to-set-up-a-new-project)
+      - [Running this package from the source code](#running-this-package-from-the-source-code)
       - [Releasing this package manually](#releasing-this-package-manually)
     - [Contributing](#contributing)
   - [Contributors ✨](#contributors-)
@@ -93,9 +94,18 @@ When setting up a new project, please follow
 [these guidelines](docs/new-project.md) to ensure that it complies with our
 standards of quality.
 
+#### Running this package from the source code
+
+To run this package from the source code while developing and debugging `pkode`,
+you can use this command:
+
+```shell
+npm run ts <script-name>
+```
+
 #### Releasing this package manually
 
-Please follow [Manual Releases](docs/manual-releases.md) document to perform
+Please follow the [Manual Releases](docs/manual-releases.md) document to perform
 releases manually when things get messed up.
 
 ### Contributing
@@ -141,3 +151,7 @@ Thanks goes to these wonderful people
 This project follows the
 [all-contributors](https://github.com/all-contributors/all-contributors)
 specification. Contributions of any kind are welcome!
+
+```
+
+```

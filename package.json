@@ -17,7 +17,7 @@
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
-    "ts": "node -r esbuild-register"
+    "ts": "node -r esbuild-register src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -40,5 +40,8 @@
     "esbuild": "0.14.43",
     "esbuild-register": "3.3.3",
     "microbundle": "0.15.0"
+  },
+  "dependencies": {
+    "cross-spawn": "7.0.3"
   }
 }
