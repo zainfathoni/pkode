@@ -1,22 +1,23 @@
 {
   "name": "pkode",
-  "version": "0.1.0-alpha",
+  "version": "0.0.0-semantically-released",
   "description": "CLI toolbox for common scripts for my projects",
-  "type": "module",
+  "type": "commonjs",
   "source": "src/index.ts",
   "exports": {
-    "require": "./dist/index.cjs",
+    "require": "./dist/index.js",
     "default": "./dist/index.modern.js"
   },
-  "main": "./dist/index.cjs",
+  "main": "./dist/index.js",
   "module": "./dist/index.module.js",
   "unpkg": "./dist/index.umd.js",
   "bin": {
-    "pkode": "./dist/index.cjs"
+    "pkode": "./dist/index.js"
   },
   "scripts": {
     "build": "microbundle",
-    "dev": "microbundle watch"
+    "dev": "microbundle watch",
+    "ts": "node -r esbuild-register"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,8 @@
     "npm": ">=6"
   },
   "devDependencies": {
+    "esbuild": "0.14.43",
+    "esbuild-register": "3.3.3",
     "microbundle": "0.15.0"
   }
 }
