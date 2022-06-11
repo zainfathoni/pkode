@@ -11,6 +11,9 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.module.js",
   "unpkg": "./dist/index.umd.js",
+  "bin": {
+    "pkode": "./dist/index.js"
+  },
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch"
