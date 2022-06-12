@@ -25,7 +25,7 @@ const useBuiltinConfig =
   !hasFile('babel.config.js') &&
   !hasPkgProp('babel')
 const config = useBuiltinConfig
-  ? ['--presets', here('../../config/.babelrc.js')]
+  ? ['--presets', here('../../config/babelrc.js')]
   : []
 
 const extensions =

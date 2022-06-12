@@ -12,13 +12,13 @@ const hereRelative = (p) => here(p).replace(process.cwd(), '.')
 const useBuiltinConfig =
   !args.includes('--config') && !hasLocalConfig('prettier')
 const config = useBuiltinConfig
-  ? ['--config', hereRelative('../config/.prettierrc.js')]
+  ? ['--config', hereRelative('../config/prettierrc.js')]
   : []
 
 const useBuiltinIgnore =
   !args.includes('--ignore-path') && !hasFile('.prettierignore')
 const ignore = useBuiltinIgnore
-  ? ['--ignore-path', hereRelative('../config/.prettierignore')]
+  ? ['--ignore-path', hereRelative('../config/prettierignore')]
   : []
 
 const write = args.includes('--no-write') ? [] : ['--write']
