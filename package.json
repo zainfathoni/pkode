@@ -17,7 +17,7 @@
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
-    "ts": "node -r esbuild-register src/index.ts"
+    "ts": "node -r esbuild-register"
   },
   "repository": {
     "type": "git",
