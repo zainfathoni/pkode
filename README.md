@@ -100,7 +100,7 @@ To run this package from the source code while developing and debugging `pkode`,
 you can use this command:
 
 ```shell
-npm run ts <script-name>
+npm run ts src <script-name>
 ```
 
 #### Releasing this package manually
@@ -151,7 +151,3 @@ Thanks goes to these wonderful people
 This project follows the
 [all-contributors](https://github.com/all-contributors/all-contributors)
 specification. Contributions of any kind are welcome!
-
-```
-
-```

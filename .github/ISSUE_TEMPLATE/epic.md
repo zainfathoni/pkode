@@ -20,7 +20,7 @@ assignees: zainfathoni
 
 ## Current Tasks
 
-<!-- List all the tasks here in markdown checkboxes. We can later spin-off these into individual issue threads through the GitHub UI. -->
+<!-- List all the tasks here in markdown checkboxes. We can later spin off these into individual issue threads through the GitHub UI. -->
 
 - [ ] (task 1)
 - [ ] (task 2)

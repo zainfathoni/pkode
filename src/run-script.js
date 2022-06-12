@@ -115,7 +115,7 @@ function handleSignal(result) {
   process.exit(1)
 }
 
-function attemptResolve(id: string) {
+function attemptResolve(id) {
   try {
     return require.resolve(id)
   } catch (error) {

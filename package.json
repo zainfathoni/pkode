@@ -3,7 +3,7 @@
   "version": "0.0.0-semantically-released",
   "description": "CLI toolbox for common scripts for my projects",
   "type": "commonjs",
-  "source": "src/index.ts",
+  "source": "src/index.js",
   "exports": {
     "require": "./dist/index.js",
     "default": "./dist/index.modern.js"
@@ -17,7 +17,7 @@
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
-    "ts": "node -r esbuild-register src/index.ts"
+    "lint": "node src lint"
   },
   "repository": {
     "type": "git",
@@ -37,8 +37,6 @@
     "npm": ">=6"
   },
   "devDependencies": {
-    "esbuild": "0.14.43",
-    "esbuild-register": "3.3.3",
     "microbundle": "0.15.0"
   },
   "dependencies": {
