@@ -99,7 +99,7 @@ function parseEnv(name, def) {
 
 function envIsSet(name) {
   return (
-    process.env.hasOwnProperty(name) &&
+    Object.prototype.hasOwnProperty.call(process.env, 'name') &&
     process.env[name] &&
     process.env[name] !== 'undefined'
   )
