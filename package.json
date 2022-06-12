@@ -2,21 +2,10 @@
   "name": "pkode",
   "version": "0.0.0-semantically-released",
   "description": "CLI toolbox for common scripts for my projects",
-  "type": "commonjs",
-  "source": "src/index.js",
-  "exports": {
-    "require": "./dist/index.js",
-    "default": "./dist/index.modern.js"
-  },
-  "main": "./dist/index.js",
-  "module": "./dist/index.module.js",
-  "unpkg": "./dist/index.umd.js",
   "bin": {
     "pkode": "./dist/index.js"
   },
   "scripts": {
-    "build": "microbundle",
-    "dev": "microbundle watch",
     "lint": "node src lint"
   },
   "repository": {
@@ -35,9 +24,6 @@
   "engines": {
     "node": "^12.22.0 || ^14.17.0 || >=16.0.0",
     "npm": ">=6"
-  },
-  "devDependencies": {
-    "microbundle": "0.15.0"
   },
   "dependencies": {
     "cross-spawn": "7.0.3"
