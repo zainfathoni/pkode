@@ -8,7 +8,8 @@
   "scripts": {
     "build": "node src build",
     "lint": "node src lint",
-    "format": "node src format"
+    "format": "node src format",
+    "validate": "node src validate"
   },
   "repository": {
     "type": "git",
@@ -62,6 +63,7 @@
     "babel-plugin-transform-react-remove-prop-types": "0.4.24",
     "browserslist": "4.20.4",
     "builtin-modules": "3.3.0",
+    "concurrently": "7.2.1",
     "cosmiconfig": "7.0.1",
     "cpy": "8.1.2",
     "cross-env": "7.0.3",

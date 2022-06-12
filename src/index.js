@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-console.log(`✓ pkode at your service.`)
-
 let shouldThrow = false
 
 try {
