@@ -29,6 +29,7 @@
     "cross-spawn": "7.0.3",
     "eslint": "8.17.0",
     "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-yml": "1.0.0",
     "prettier": "2.6.2"
   }
 }
