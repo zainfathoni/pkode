@@ -15,7 +15,7 @@ const useBuiltinConfig =
   !hasPkgProp('eslintConfig')
 
 const config = useBuiltinConfig
-  ? ['--config', hereRelative('../config/.eslintrc.js')]
+  ? ['--config', hereRelative('../config/eslintrc.js')]
   : []
 
 const defaultExtensions = 'js,ts,tsx'
@@ -28,7 +28,7 @@ const useBuiltinIgnore =
   !hasPkgProp('eslintIgnore')
 
 const ignore = useBuiltinIgnore
-  ? ['--ignore-path', hereRelative('../config/.eslintignore')]
+  ? ['--ignore-path', hereRelative('../config/eslintignore')]
   : []
 
 const cache = args.includes('--no-cache')
