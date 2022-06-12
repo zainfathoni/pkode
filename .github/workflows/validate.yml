@@ -42,7 +42,7 @@ jobs:
 
       # - name: ⬆️ Upload coverage report
       #   uses: codecov/codecov-action@v2
-  
+
   release:
     needs: main
     runs-on: ubuntu-latest
