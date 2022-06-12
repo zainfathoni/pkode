@@ -37,8 +37,8 @@ jobs:
         with:
           useLockFile: false
 
-      # - name: ▶️ Run validate script
-      #   run: npm run validate
+      - name: ▶️ Run validate script
+        run: npm run validate
 
       # - name: ⬆️ Upload coverage report
       #   uses: codecov/codecov-action@v2
