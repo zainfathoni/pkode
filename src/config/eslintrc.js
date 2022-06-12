@@ -1,4 +1,4 @@
-const { ifAnyDep } = require('../utils')
+const { ifAnyDep, ifTypescript } = require('../utils')
 
 module.exports = {
   env: {
@@ -12,14 +12,14 @@ module.exports = {
     'plugin:import/recommended',
     ifAnyDep('react', 'plugin:react/recommended'),
     ifAnyDep('react', 'plugin:jsx-a11y/recommended'),
-    ifAnyDep('typescript', 'plugin:@typescript-eslint/recommended'),
-    ifAnyDep('typescript', 'plugin:import/typescript'),
+    ifTypescript('plugin:@typescript-eslint/recommended'),
+    ifTypescript('plugin:import/typescript'),
     ifAnyDep('@playwright/test', 'plugin:playwright/playwright-test'),
     'plugin:yml/standard',
     'plugin:yml/prettier',
     'prettier',
   ].filter(Boolean),
-  ...ifAnyDep('typescript', {
+  ...ifTypescript({
     parser: '@typescript-eslint/parser',
   }),
   parserOptions: {
@@ -33,8 +33,8 @@ module.exports = {
   },
   plugins: [
     ifAnyDep('react', 'react'),
-    ifAnyDep('typescript', '@typescript-eslint'),
     ifAnyDep('react', 'jsx-a11y'),
+    ifTypescript('@typescript-eslint'),
   ].filter(Boolean),
   rules: {
     'import/extensions': [
@@ -59,7 +59,7 @@ module.exports = {
     }),
   },
   settings: {
-    ...ifAnyDep('typescript', {
+    ...ifTypescript({
       'import/resolver': {
         typescript: {
           project: './tsconfig.json',
