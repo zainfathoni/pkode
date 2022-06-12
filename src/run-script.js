@@ -43,7 +43,7 @@ function getEnv() {
     .filter((key) => process.env[key] !== undefined)
     .reduce(
       (envCopy, key) => {
-        envCopy[key] = Boolean(process.env[key])
+        envCopy[key] = process.env[key]
         return envCopy
       },
       {
