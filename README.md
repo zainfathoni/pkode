@@ -77,7 +77,7 @@ Not all of my implementation standards can be automated through scripts due to
 certain reasons, such as
 [the deprecation of conventional JS config in husky](https://blog.typicode.com/husky-git-hooks-javascript-config/).
 
-Therefore, complement this repository with some guidelines and how-tos that all
+Therefore, I complement this repository with some guidelines and how-tos that all
 contributors to my open-source projects can follow.
 
 ### Guidelines
