@@ -29,7 +29,7 @@ const scripts = useDefaultScripts
         ...scriptsToRun,
         [name]: `npm run ${name} --silent`,
       }),
-      {},
+      {}
     )
 
 const scriptCount = Object.values(scripts).filter(Boolean).length
@@ -38,7 +38,7 @@ if (scriptCount > 0) {
   const result = spawn.sync(
     resolveBin('concurrently'),
     getConcurrentlyArgs(scripts),
-    {stdio: 'inherit'},
+    { stdio: 'inherit' }
   )
 
   process.exit(result.status)
