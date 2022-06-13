@@ -1,3 +1,3 @@
 'use strict'
 
-module.exports = require('./src/config/prettierrc.js')
+module.exports = require('./src/config/prettierrc')

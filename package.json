@@ -5,6 +5,13 @@
   "bin": {
     "pkode": "./dist/index.js"
   },
+  "files": [
+    "dist",
+    ".babelrc.js",
+    ".eslintrc.js",
+    ".prettierrc.js",
+    "config.js"
+  ],
   "scripts": {
     "build": "node src build",
     "lint": "node src lint",
