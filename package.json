@@ -7,10 +7,10 @@
   },
   "files": [
     "dist",
-    ".babelrc.js",
-    ".eslintrc.js",
-    ".prettierrc.js",
-    "config.js"
+    "babel.js",
+    "config.js",
+    "eslint.js",
+    "prettier.js"
   ],
   "scripts": {
     "build": "node src build",
