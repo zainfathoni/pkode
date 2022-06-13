@@ -1,11 +1,5 @@
 # pkode
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
 [![Build Status][build-badge]][build] [![MIT License][license-badge]][license]
 [![version][version-badge]][package]
 [![All Contributors][all-contributors-badge]](#contributors-)
@@ -77,8 +71,8 @@ Not all of my implementation standards can be automated through scripts due to
 certain reasons, such as
 [the deprecation of conventional JS config in husky](https://blog.typicode.com/husky-git-hooks-javascript-config/).
 
-Therefore, I complement this repository with some guidelines and how-tos that all
-contributors to my open-source projects can follow.
+Therefore, I complement this repository with some guidelines and how-tos that
+all contributors to my open-source projects can follow.
 
 ### Guidelines
 

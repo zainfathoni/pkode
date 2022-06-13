@@ -1,0 +1,8 @@
+{
+  "include": ["pkode/modules.d.ts", "**/*.ts", "**/*.tsx"],
+  "compilerOptions": {
+    "jsx": "react",
+    "esModuleInterop": true
+  },
+  "noEmit": true
+}
