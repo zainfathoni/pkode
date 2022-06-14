@@ -1,6 +1,11 @@
 module.exports = {
   ...require('./src/config/eslintrc'),
-  rules: {
-    '@typescript-eslint/no-var-requires': 'off',
-  },
+  overrides: [
+    {
+      files: ['babel.js', 'config.js', 'eslint.js', 'prettier.js'],
+      rules: {
+        'import/no-unresolved': 'off',
+      },
+    },
+  ],
 }
