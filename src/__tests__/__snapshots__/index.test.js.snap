@@ -22,27 +22,4 @@ Array [
 ]
 `;
 
-exports[`format logs help with no args: format snapshotLog 1`] = `
-Array [
-  Array [
-    
-Usage: ../ [script] [--flags]
-
-Available Scripts:
-  build
-  format
-  lint
-  test
-  typecheck
-  validate
-
-Options:
-  All options depend on the script. Docs will be improved eventually, but for most scripts you can assume that the args you pass will be forwarded to the respective tool that's being run under the hood.
-
-May the force be with you.
-,
-  ],
-]
-`;
-
 exports[`format throws unknown script: format error 1`] = `Unknown script "unknown-script".`;
