@@ -1,8 +1,11 @@
 {
+  "exclude": ["node_modules"],
   "include": ["**/*.ts", "**/*.tsx"],
   "compilerOptions": {
     "jsx": "react",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true
   },
   "noEmit": true
 }
