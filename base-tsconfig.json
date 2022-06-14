@@ -3,7 +3,8 @@
   "include": ["**/*.ts", "**/*.tsx"],
   "compilerOptions": {
     "jsx": "react",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "skipLibCheck": true
   },
   "noEmit": true
 }
