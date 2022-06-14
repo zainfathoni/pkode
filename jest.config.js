@@ -4,10 +4,10 @@ module.exports = {
   ...jest,
   coverageThreshold: {
     global: {
-      statements: 43,
-      branches: 27,
-      lines: 43,
-      functions: 46,
+      statements: 33,
+      branches: 20,
+      lines: 33,
+      functions: 41,
     },
   },
 }
