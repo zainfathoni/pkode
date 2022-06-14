@@ -99,7 +99,10 @@ function parseEnv(name, def) {
 
 function envIsSet(name) {
   return (
-    Object.hasOwn(process.env, name) &&
+    // FIXME: Use Object.hasOwn(process.env, name) when we drop support for Node.js 14
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwn
+    // eslint-disable-next-line no-prototype-builtins
+    process.env.hasOwnProperty(name) &&
     process.env[name] &&
     process.env[name] !== 'undefined'
   )
