@@ -16,7 +16,7 @@ const { packageJson: pkg, path: pkgPath } = readPkgUp.sync({
 })
 const appDirectory = path.dirname(pkgPath)
 
-function resolveKcdScripts() {
+function resolvePkode() {
   if (
     pkg.name === 'pkode' ||
     // this happens on install of husky within pkode locally
@@ -99,7 +99,7 @@ function parseEnv(name, def) {
 
 function envIsSet(name) {
   return (
-    Object.prototype.hasOwnProperty.call(process.env, 'name') &&
+    Object.hasOwn(process.env, name) &&
     process.env[name] &&
     process.env[name] !== 'undefined'
   )
@@ -244,7 +244,7 @@ module.exports = {
   parseEnv,
   pkg,
   resolveBin,
-  resolveKcdScripts,
+  resolvePkode,
   uniq,
   writeExtraEntry,
   generateTypeDefs,
