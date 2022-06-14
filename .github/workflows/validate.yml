@@ -40,8 +40,8 @@ jobs:
       - name: ▶️ Run validate script
         run: npm run validate
 
-      # - name: ⬆️ Upload coverage report
-      #   uses: codecov/codecov-action@v2
+      - name: ⬆️ Upload coverage report
+        uses: codecov/codecov-action@v2
 
   release:
     needs: main
