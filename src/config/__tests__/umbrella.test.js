@@ -11,6 +11,6 @@ describe('requiring some files does not blow up', () => {
   })
 
   it(`require('config').getRollupConfig()`, () => {
-    require('..').getRollupConfig()
+    require('../').getRollupConfig()
   })
 })
