@@ -16,7 +16,7 @@ const { packageJson: pkg, path: pkgPath } = readPkgUp.sync({
 })
 const appDirectory = path.dirname(pkgPath)
 
-function resolveKcdScripts() {
+function resolvePkode() {
   if (
     pkg.name === 'pkode' ||
     // this happens on install of husky within pkode locally
@@ -99,7 +99,10 @@ function parseEnv(name, def) {
 
 function envIsSet(name) {
   return (
-    Object.prototype.hasOwnProperty.call(process.env, 'name') &&
+    // FIXME: Use Object.hasOwn(process.env, name) when we drop support for Node.js 14
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwn
+    // eslint-disable-next-line no-prototype-builtins
+    process.env.hasOwnProperty(name) &&
     process.env[name] &&
     process.env[name] !== 'undefined'
   )
@@ -244,7 +247,7 @@ module.exports = {
   parseEnv,
   pkg,
   resolveBin,
-  resolveKcdScripts,
+  resolvePkode,
   uniq,
   writeExtraEntry,
   generateTypeDefs,
