@@ -2,7 +2,7 @@
 
 const path = require('path')
 
-const { ifAnyDep, hasFile, hasPkgProp } = require('../utils')
+const { hasFile, hasPkgProp } = require('../utils')
 
 const here = (p) => path.join(__dirname, p)
 
@@ -17,11 +17,6 @@ const ignores = [
 ]
 const jestConfig = {
   roots: ['<rootDir>/src'],
-  testEnvironment: ifAnyDep(
-    ['webpack', 'rollup', 'react', 'preact'],
-    'jsdom',
-    'node'
-  ),
   testEnvironmentOptions: { url: 'http://localhost' },
   moduleFileExtensions: ['js', 'jsx', 'json', 'ts', 'tsx'],
   modulePaths: ['<rootDir>/src', 'shared', '<rootDir>/tests'],
