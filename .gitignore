@@ -7,3 +7,7 @@ dist
 # when working with contributors
 package-lock.json
 yarn.lock
+
+# Nix
+.envrc
+.direnv
