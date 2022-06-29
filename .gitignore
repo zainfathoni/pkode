@@ -9,4 +9,5 @@ package-lock.json
 yarn.lock
 
 # Nix
+.envrc
 .direnv
